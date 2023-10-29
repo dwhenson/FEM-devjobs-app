@@ -1,0 +1,44 @@
+:root {
+  /* Colors */
+  --clr-neutral-100: #000;
+  --clr-neutral-200: #7d7d7d;
+  --clr-neutral-300: #e5e5e5;
+  --clr-neutral-400: #f3f3f3;
+  --clr-neutral-500: #fff;
+
+  /* Spacing */
+  /* Single steps */
+  --space-3xs: clamp(0.25rem, calc(0.23rem + 0.09vw), 0.31rem);
+  --space-2xs: clamp(0.5rem, calc(0.48rem + 0.09vw), 0.56rem);
+  --space-xs: clamp(0.75rem, calc(0.71rem + 0.18vw), 0.88rem);
+  --space-s: clamp(1rem, calc(0.96rem + 0.18vw), 1.13rem);
+  --space-m: clamp(1.5rem, calc(1.45rem + 0.27vw), 1.69rem);
+  --space-l: clamp(2rem, calc(1.93rem + 0.36vw), 2.25rem);
+  --space-xl: clamp(3rem, calc(2.89rem + 0.54vw), 3.38rem);
+  --space-2xl: clamp(4rem, calc(3.86rem + 0.71vw), 4.5rem);
+  --space-3xl: clamp(6rem, calc(5.79rem + 1.07vw), 6.75rem);
+
+  /* One-up pairs */
+  --space-3xs-2xs: clamp(0.25rem, calc(0.16rem + 0.45vw), 0.56rem);
+  --space-2xs-xs: clamp(0.5rem, calc(0.39rem + 0.54vw), 0.88rem);
+  --space-xs-s: clamp(0.75rem, calc(0.64rem + 0.54vw), 1.13rem);
+  --space-s-m: clamp(1rem, calc(0.8rem + 0.98vw), 1.69rem);
+  --space-m-l: clamp(1.5rem, calc(1.29rem + 1.07vw), 2.25rem);
+  --space-l-xl: clamp(2rem, calc(1.61rem + 1.96vw), 3.38rem);
+  --space-xl-2xl: clamp(3rem, calc(2.57rem + 2.14vw), 4.5rem);
+  --space-2xl-3xl: clamp(4rem, calc(3.21rem + 3.93vw), 6.75rem);
+
+  /* Font sizes */
+  --step--1: clamp(0.94rem, calc(0.92rem + 0.09vw), 1rem);
+  --step-0: clamp(1.13rem, calc(1.09rem + 0.18vw), 1.25rem);
+  --step-1: clamp(1.35rem, calc(1.29rem + 0.3vw), 1.56rem);
+  --step-2: clamp(1.62rem, calc(1.52rem + 0.48vw), 1.95rem);
+  --step-3: clamp(1.94rem, calc(1.8rem + 0.71vw), 2.44rem);
+  --step-4: clamp(2.33rem, calc(2.13rem + 1.03vw), 3.05rem);
+  --step-5: clamp(2.8rem, calc(2.51rem + 1.45vw), 3.82rem);
+  --step-6: clamp(3.36rem, calc(2.96rem + 2.01vw), 4.77rem);
+  --step-7: clamp(4.03rem, calc(3.48rem + 2.76vw), 5.96rem);
+  --step-8: clamp(4.84rem, calc(4.09rem + 3.73vw), 7.45rem);
+  --step-9: clamp(5.81rem, calc(4.8rem + 5.01vw), 9.31rem);
+  --step-10: clamp(6.97rem, calc(5.63rem + 6.68vw), 11.64rem);
+}
