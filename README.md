@@ -34,3 +34,13 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## Requirements
+
+Your users should be able to:
+
+- View the optimal layout for each page depending on their device's screen size
+- See hover states for all interactive elements throughout the site
+- Be able to filter jobs on the index page by title, location, and whether a job is for a full-time position
+- Be able to click a job from the index page so that they can read more information and apply for the job
+- **Bonus**: Have the correct color scheme chosen for them based on their computer preferences. _Hint_: Research `prefers-color-scheme` in CSS.
