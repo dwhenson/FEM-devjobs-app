@@ -1,7 +1,8 @@
 import Image from "next/image";
+import Link from "next/link";
 import { data } from "@/data/data";
 
-async function Results() {
+function Results() {
   return (
     <ul>
       {data.map(
@@ -16,18 +17,20 @@ async function Results() {
           logoBackground = "transparent",
         }) => (
           <li key={id}>
-            <Image
-              src={logo}
-              alt={company}
-              width={30}
-              height={30}
-              style={{ backgroundColor: logoBackground }}
-            />
-            <p>{postedAt}</p>
-            <p>{contract}</p>
-            <h2>{position}</h2>
-            <p>{company}</p>
-            <p>{location}</p>
+            <Link href={String(id)}>
+              <Image
+                src={logo}
+                alt={company}
+                width={30}
+                height={30}
+                style={{ backgroundColor: logoBackground }}
+              />
+              <p>{postedAt}</p>
+              <p>{contract}</p>
+              <h2>{position}</h2>
+              <p>{company}</p>
+              <p>{location}</p>
+            </Link>
           </li>
         ),
       )}
