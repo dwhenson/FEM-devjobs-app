@@ -1,11 +1,10 @@
 import Image from "next/image";
 import Link from "next/link";
-import { data } from "@/data/data";
 
-function Results() {
+function Results({ results, fullTimeOnly }) {
   return (
     <ul>
-      {data.map(
+      {results.map(
         ({
           id,
           logo,
