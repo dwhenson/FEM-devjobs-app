@@ -26,7 +26,7 @@ h3 {
 p {
   line-height: 1.8;
   max-width: 33ch;
-  color: var(--clr-primary-400);
+  color: var(--clr-secondary-400);
 }
 
 a {

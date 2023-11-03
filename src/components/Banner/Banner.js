@@ -1,7 +1,9 @@
 "use client";
 import React from "react";
+import * as Switch from "@radix-ui/react-switch";
 import Cookie from "js-cookie";
 import { LIGHT_TOKENS, DARK_TOKENS } from "@/constants";
+import styles from "./Banner.module.css";
 
 function Banner({ initialTheme }) {
   const [theme, setTheme] = React.useState(initialTheme);
@@ -25,7 +27,20 @@ function Banner({ initialTheme }) {
 
   return (
     <>
-      <button onClick={handleToggleTheme}>Toggle dark/light theme</button>
+      <div style={{ display: "flex", alignItems: "center" }}>
+        <label
+          className="styles.Label"
+          htmlFor="toggle-color-theme"
+          style={{ paddingRight: 15 }}>
+          Toggle Colour Theme
+        </label>
+        <Switch.Root
+          className={styles.SwitchRoot}
+          id="toggle-color-theme"
+          onCheckedChange={handleToggleTheme}>
+          <Switch.Thumb className={styles.SwitchThumb} />
+        </Switch.Root>
+      </div>
       <p>Current theme is {theme}.</p>
     </>
   );

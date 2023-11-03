@@ -11,7 +11,7 @@ export const LIGHT_TOKENS = {
 
 export const DARK_TOKENS = {
   "--clr-primary-100": "#5964E0",
-  "--clr-primary-200": "#939BF4",
+  "--clr-primary-200": "#6E8098",
   "--clr-primary-300": "#19202D",
   "--clr-primary-400": "#fff",
   "--clr-secondary-100": "#19202D",
