@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-function Results({ results, fullTimeOnly }) {
+function Results({ results }) {
   return (
     <ul>
       {results.map(
