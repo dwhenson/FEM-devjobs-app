@@ -1,9 +1,10 @@
 import Image from "next/image";
 import Link from "next/link";
+import styles from "./Results.module.css";
 
 function Results({ results }) {
   return (
-    <ul>
+    <ul role="list" className={styles.results}>
       {results.map(
         ({
           id,

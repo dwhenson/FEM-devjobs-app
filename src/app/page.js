@@ -30,7 +30,7 @@ function App() {
   }
 
   return (
-    <main>
+    <main className="place-content" style={{ "--max": "1000px" }}>
       <Search
         position={position}
         setPosition={setPosition}

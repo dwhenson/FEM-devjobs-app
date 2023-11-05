@@ -1,7 +1,7 @@
 body {
+  max-height: 100vh;
   background-color: var(--clr-secondary-100);
   font-size: var(--step--0);
-  max-height: 100vh;
   color: var(--clr-primary-400);
 }
 
@@ -24,19 +24,19 @@ h3 {
 }
 
 p {
-  line-height: 1.8;
   max-width: 33ch;
+  line-height: 1.8;
   color: var(--clr-secondary-400);
 }
 
 a {
-  color: var(--clr-primary-400);
   text-decoration: none;
+  color: var(--clr-primary-400);
 }
 
 :focus-visible {
   opacity: 1 !important;
-  outline: 4px solid var(--clr-neutral-100);
+  outline: 4px solid var(--clr-primary-100);
   outline-offset: 4px;
 }
 

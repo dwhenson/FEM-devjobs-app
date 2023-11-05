@@ -1,10 +1,10 @@
 .place-content {
   display: grid;
+  grid-template-rows: auto 1fr auto;
   grid-template-columns:
     minmax(1rem, 1fr)
-    minmax(320px, 1440px)
+    minmax(var(--min, 320px), var(--max, 1440px))
     minmax(1rem, 1fr);
-  grid-template-rows: auto 1fr auto;
 }
 
 .place-content > * {

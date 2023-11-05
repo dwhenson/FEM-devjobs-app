@@ -1,3 +1,6 @@
+import styles from "./Search.module.css";
+import Button from "@/components/Button";
+
 function Search({
   position,
   setPosition,
@@ -9,6 +12,7 @@ function Search({
 }) {
   return (
     <form
+      className={styles.form}
       onSubmit={(event) => {
         event.preventDefault();
         updateResults();
@@ -41,7 +45,7 @@ function Search({
         <label htmlFor="fulltime-only">
           <strong>Full Time Only</strong>
         </label>
-        <button>search</button>
+        <Button>search</Button>
       </div>
     </form>
   );
