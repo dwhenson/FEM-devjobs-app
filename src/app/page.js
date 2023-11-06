@@ -40,7 +40,7 @@ function App() {
         setFullTimeOnly={setFullTimeOnly}
         updateResults={updateResults}
       />
-      <Results results={results} fullTimeOnly={fullTimeOnly} />
+      <Results results={results} />
     </main>
   );
 }
